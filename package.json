@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "workspaces": [ "server", "client" ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspaces",
+    "clean": "rm -rf ./build ./dist ./client/build ./client/dist ./server/build ./server/dist && find . -name '*.tsbuildinfo' -delete"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.38"
+  }
+}
