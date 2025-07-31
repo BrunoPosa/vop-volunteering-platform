@@ -1,0 +1,36 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Lockfiles
+package-lock.json
+**/package-lock.json
+
+# Build artifacts
+build/
+dist/
+**/build/
+**/dist/
+*.tsbuildinfo
+**/*.tsbuildinfo
+*d.ts
+**/*.d.ts
+
+# Logs
+npm-debug.log*
+*.log
+logs/
+log/
+*.log.*
+*.log?.*
+
+# Environment files and .env.local, .env.dev
+.env
+.env.*
+
+# IDE / Editor folders
+.vscode/
+
+# Output from Vite / React / etc.
+client/build/
+client/.vite/
