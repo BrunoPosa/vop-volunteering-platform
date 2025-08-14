@@ -7,15 +7,15 @@ This is a full-stack project under active development, following a milestone-bas
 
 ## Install and run instructions
 
-### Clone repo
+#### Clone repo
 `git clone git@github.com:BrunoPosa/vop-volunteering-platform.git vop`
-### Install dependencies
+#### Install dependencies
 `cd vop`<br>
 `npm -i`
-### Run
+#### Run
 `npm run build`<br>
 `npm run start`
-### Connect to backend from terminal on localhost port 3000
+#### Connect to backend from terminal on localhost port 3000
 `curl http://127.0.0.1:3000/events`
 
 
