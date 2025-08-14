@@ -2,8 +2,8 @@
   "private": true,
   "workspaces": [ "server", "client" ],
   "scripts": {
-    "build": "npm run build --workspaces",
-    "start": "npm run start --workspaces",
+    "build": "npm run build --workspace server && npm run build --workspace client",
+    "start": "npm run start --workspace server && npm run start --workspace client",
     "clean": "rm -rf ./build ./dist ./client/build ./client/dist ./server/build ./server/dist && find . -name '*.tsbuildinfo' -delete"
   },
   "devDependencies": {
