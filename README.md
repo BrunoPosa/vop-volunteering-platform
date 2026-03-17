@@ -1,8 +1,13 @@
 # Volunteering Platform
 
 A web application for discovering, managing, and enrolling in volunteering events.  
-This is a full-stack project under active development, following a milestone-based roadmap.
+A simple web app where users can create and join volunteering events.
 
+## Goal
+Build and deploy a clean full-stack app in 2 weeks.
+
+## Status
+inactive
 ---
 
 ## Project Scope
