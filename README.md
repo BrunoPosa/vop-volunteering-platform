@@ -10,6 +10,21 @@ Build and deploy a clean full-stack app in 2 weeks.
 inactive
 ---
 
+## Install and run instructions
+
+#### Clone repo
+`git clone git@github.com:BrunoPosa/vop-volunteering-platform.git vop`
+#### Install dependencies
+`cd vop`<br>
+`npm -i`
+#### Run
+`npm run build`<br>
+`npm run start`
+#### Connect to backend from terminal on localhost port 3000
+`curl http://127.0.0.1:3000/events`
+
+
+
 ## Project Scope
 
 The platform includes:
